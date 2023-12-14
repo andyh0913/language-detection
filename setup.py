@@ -10,7 +10,7 @@ setup(
     author='andyh0913',
     license='Apache-2.0',
     package_dir={'': 'src'},
-    packages=find_packages('src'),
+    packages=['langdetect', 'langdetect.data', 'langdetect.pattern'],
     include_package_data=True,
     package_data={
         'langdetect': ['data/pattern/*/*.txt'],

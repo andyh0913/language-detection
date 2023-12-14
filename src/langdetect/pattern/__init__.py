@@ -1,0 +1,1 @@
+# This is pattern/__init__.py
