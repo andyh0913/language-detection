@@ -7,6 +7,7 @@ DATAPACK = None
 def init_datapack():
     global DATAPACK
     if DATAPACK == None:
+        # This dictionary should be under the zh or other languages. (allow to zh detect more words that should using in that language)
         DATAPACK = loader('pattern', 'en')
 
 def en_count(text: str=""):
